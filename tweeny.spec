@@ -27,7 +27,8 @@ Source0:        %{url}/archive/v%{version}.tar.gz#/tweeny-%{version}.tar.gz
 BuildRequires:  cmake
 BuildRequires:  gcc
 BuildRequires:  gcc-c++
-BuildRequires:  ninja
+BuildRequires:  (ninja ninja-build)
+BuildArch:      noarch
 
 %description
 Header-only %{summary}.
